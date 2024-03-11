@@ -7,7 +7,7 @@ const ProductDetails = () => {
     const params = useParams()
     useEffect(() => {
         productDetails()
-    })
+    }, [])
 
     const productDetails = async () => {
         const {id} = params
@@ -29,7 +29,7 @@ const ProductDetails = () => {
             <Link className="link" to = '/'>All Products</Link>
             <div className="details">
                 <div className="img-container">
-                    <img className="product-image" src={product.image} alt = {product.title``} />
+                    <img className="product-image" src={product.image} alt = {product.title} />
                 </div>
                 <div className="product-content">
                     <p><span className="span">Discription:</span> {product.description}</p>
