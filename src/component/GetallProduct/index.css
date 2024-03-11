@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17393f;
+    color: #ffffff;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+
+.list-items{
+    list-style-type: none;
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #bdb83d;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+
+}
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
